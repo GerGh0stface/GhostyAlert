@@ -1,0 +1,58 @@
+# ============================================
+#         GhostyAlert Configuration
+# ============================================
+
+# Language file to use (en, de)
+# Language files are located in plugins/GhostyAlert/lang/
+language: en
+
+# Time window in seconds to count ores mined
+time-window: 60
+
+# Alert threshold: how many ores within the time window triggers an alert
+alert-threshold: 30
+
+# Cooldown in seconds between alerts for the same player (to prevent spam)
+alert-cooldown: 30
+
+# How many ore-events to store per player in the history log
+max-history-per-player: 50
+
+# ============================================
+#           Discord Webhook Settings
+# ============================================
+discord:
+  enabled: false
+  webhook-url: "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN"
+  # Color of the Discord embed (decimal color code)
+  # Red: 16711680 | Orange: 16753920 | Yellow: 16776960
+  embed-color: 16753920
+  # Mention a role when an alert fires (leave empty to disable)
+  # Format: "<@&ROLE_ID>"
+  mention-role: ""
+
+# ============================================
+#           Tracked Ores
+# ============================================
+tracked-ores:
+  # Overworld Ores
+  - COAL_ORE
+  - DEEPSLATE_COAL_ORE
+  - IRON_ORE
+  - DEEPSLATE_IRON_ORE
+  - COPPER_ORE
+  - DEEPSLATE_COPPER_ORE
+  - GOLD_ORE
+  - DEEPSLATE_GOLD_ORE
+  - REDSTONE_ORE
+  - DEEPSLATE_REDSTONE_ORE
+  - EMERALD_ORE
+  - DEEPSLATE_EMERALD_ORE
+  - LAPIS_ORE
+  - DEEPSLATE_LAPIS_ORE
+  - DIAMOND_ORE
+  - DEEPSLATE_DIAMOND_ORE
+  # Nether Ores
+  - NETHER_GOLD_ORE
+  - NETHER_QUARTZ_ORE
+  - ANCIENT_DEBRIS

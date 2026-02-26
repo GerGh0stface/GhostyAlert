@@ -1,0 +1,24 @@
+name: GhostyAlert
+version: '${project.version}'
+main: GhostyAlert
+api-version: '1.21'
+description: Detects suspicious ore farming and alerts staff
+authors: [GhostyAlert]
+
+commands:
+  ghostyalert:
+    description: Opens the GhostyAlert monitoring GUI
+    aliases: [ga, orewatch]
+    permission: ghostyalert.use
+    usage: /ghostyalert
+
+permissions:
+  ghostyalert.use:
+    description: Allows access to the GhostyAlert GUI and alerts
+    default: op
+  ghostyalert.bypass:
+    description: Bypasses ore detection tracking
+    default: false
+  ghostyalert.reload:
+    description: Allows reloading the config
+    default: op
