@@ -79,8 +79,4 @@ Infos:
 Found a bug?
 Please include plugin version, Minecraft version & server software
 and open a ticket on our Discord:
-[https://discord.gg/YTCHWAap2z](https://discord.gg/YTCHWAap2z)
-
----
-
-Wenn **timed alerts**, **join notifications** oder **staff-only warnings** drin sind, kann ich das noch passend erweitern 👀
+https://discord.gg/YTCHWAap2z
