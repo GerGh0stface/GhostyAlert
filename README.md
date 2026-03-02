@@ -14,6 +14,7 @@ Supports **Minecraft 1.21 – 1.21.11** (Paper & Spigot).
 * No database required
 * Low performance impact
 * Fully customizable language files
+* Individual alert settings for all ores >> full customizable
 * English & German support
 
 ---
