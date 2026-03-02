@@ -1,0 +1,146 @@
+# ============================================
+#         GhostyAlert Configuration
+# ============================================
+
+# Language file to use (en, de)
+# Language files are located in plugins/GhostyAlert/lang/
+language: en
+
+# ============================================
+#           Discord Webhook Settings
+# ============================================
+discord:
+  enabled: false
+  webhook-url: "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN"
+  # Color of the Discord embed (decimal color code)
+  # Red: 16711680 | Orange: 16753920 | Yellow: 16776960
+  embed-color: 16753920
+  # Mention a role when an alert fires (leave empty to disable)
+  # Format: "<@&ROLE_ID>"
+  mention-role: ""
+
+# ============================================
+#           Tracked Ores
+# Each ore has its own individual settings:
+#   time-window:       seconds to count mined ores
+#   alert-threshold:   how many ores trigger an alert
+#   alert-cooldown:    seconds between alerts for the same player
+#   max-history:       ore events stored per player
+# ============================================
+tracked-ores:
+
+  # --- Overworld Ores ---
+  COAL_ORE:
+    time-window: 100
+    alert-threshold: 30
+    alert-cooldown: 5
+    max-history: 50
+
+  DEEPSLATE_COAL_ORE:
+    time-window: 100
+    alert-threshold: 30
+    alert-cooldown: 5
+    max-history: 50
+
+  IRON_ORE:
+    time-window: 100
+    alert-threshold: 30
+    alert-cooldown: 5
+    max-history: 50
+
+  DEEPSLATE_IRON_ORE:
+    time-window: 100
+    alert-threshold: 30
+    alert-cooldown: 5
+    max-history: 50
+
+  COPPER_ORE:
+    time-window: 100
+    alert-threshold: 30
+    alert-cooldown: 5
+    max-history: 50
+
+  DEEPSLATE_COPPER_ORE:
+    time-window: 100
+    alert-threshold: 30
+    alert-cooldown: 5
+    max-history: 50
+
+  GOLD_ORE:
+    time-window: 100
+    alert-threshold: 20
+    alert-cooldown: 5
+    max-history: 50
+
+  DEEPSLATE_GOLD_ORE:
+    time-window: 100
+    alert-threshold: 20
+    alert-cooldown: 5
+    max-history: 50
+
+  REDSTONE_ORE:
+    time-window: 100
+    alert-threshold: 30
+    alert-cooldown: 5
+    max-history: 50
+
+  DEEPSLATE_REDSTONE_ORE:
+    time-window: 100
+    alert-threshold: 30
+    alert-cooldown: 5
+    max-history: 50
+
+  EMERALD_ORE:
+    time-window: 100
+    alert-threshold: 10
+    alert-cooldown: 5
+    max-history: 50
+
+  DEEPSLATE_EMERALD_ORE:
+    time-window: 100
+    alert-threshold: 10
+    alert-cooldown: 5
+    max-history: 50
+
+  LAPIS_ORE:
+    time-window: 100
+    alert-threshold: 20
+    alert-cooldown: 5
+    max-history: 50
+
+  DEEPSLATE_LAPIS_ORE:
+    time-window: 100
+    alert-threshold: 20
+    alert-cooldown: 5
+    max-history: 50
+
+  DIAMOND_ORE:
+    time-window: 100
+    alert-threshold: 10
+    alert-cooldown: 5
+    max-history: 50
+
+  DEEPSLATE_DIAMOND_ORE:
+    time-window: 100
+    alert-threshold: 10
+    alert-cooldown: 5
+    max-history: 50
+
+  # --- Nether Ores ---
+  NETHER_GOLD_ORE:
+    time-window: 100
+    alert-threshold: 30
+    alert-cooldown: 5
+    max-history: 50
+
+  NETHER_QUARTZ_ORE:
+    time-window: 100
+    alert-threshold: 30
+    alert-cooldown: 5
+    max-history: 50
+
+  ANCIENT_DEBRIS:
+    time-window: 100
+    alert-threshold: 5
+    alert-cooldown: 5
+    max-history: 50

@@ -1,0 +1,51 @@
+# ============================================
+#         GhostyAlert - Deutsche Sprache
+# ============================================
+
+prefix: "&8[&6&lGhostyAlert&8] &r"
+
+messages:
+  alert-chat: "&c&l⚠ ALARM &8| &e{player} &7hat &c{count} Erze &7in &c{seconds}s &7abgebaut! &8(&7{ore} &8@ &7{world}&8)"
+  alert-header: "&6&l--- GhostyAlert ---"
+  no-alerts: "&7Noch keine Alarme ausgelöst."
+  teleported: "&aZu &e{player} &ateleportiert!"
+  reload-success: "&aConfig erfolgreich neu geladen!"
+  no-permission: "&cDazu hast du keine Berechtigung."
+  only-players: "&cDieser Befehl ist nur für Spieler!"
+  unknown-command: "&cUnbekannter Befehl. &7Nutze &e/ghostyalert help"
+
+gui:
+  title: "&8[&6&lGhostyAlert&8] &7Übersicht"
+  info-title: "&6&lGhostyAlert Info"
+  info-threshold: "&7Schwellenwert: &e{threshold} Erze"
+  info-timewindow: "&7Zeitfenster: &e{seconds}s"
+  info-total: "&7Alarme gesamt: &e{count}"
+  info-click-hint: "&eKlicke auf einen Spieler"
+  info-click-hint2: "&eum dich zu ihm zu teleportieren!"
+  no-alerts-name: "&c&lKeine Alarme"
+  no-alerts-lore: "&7Noch keine Spieler auffällig geworden."
+  player-ore-type: "&8▸ &7Erztyp: &e{ore}"
+  player-count: "&8▸ &7Anzahl: &c{count} &7Erze"
+  player-world: "&8▸ &7Welt: &f{world}"
+  player-position: "&8▸ &7Position: &f{pos}"
+  player-time: "&8▸ &7Zeit: &f{time}"
+  player-click: "&e▶ Klicken zum Teleportieren"
+
+help:
+  separator: "&8&m                              "
+  title: "&6&lGhostyAlert &7— Hilfe"
+  cmd-gui: "&e/ghostyalert &8— &7GUI öffnen"
+  cmd-reload: "&e/ghostyalert reload &8— &7Config neu laden"
+  cmd-help: "&e/ghostyalert help &8— &7Diese Hilfe anzeigen"
+  aliases: "&7Aliases: &e/ga &7| &e/orewatch"
+
+discord:
+  embed-title: "⚠️ GhostyAlert — Verdächtiges Abbauen erkannt!"
+  embed-player: "👤 Spieler"
+  embed-ore: "⛏️ Erz"
+  embed-count: "🔢 Anzahl"
+  embed-count-value: "{count} in {seconds}s"
+  embed-position: "📍 Position"
+  embed-world: "🌍 Welt"
+  embed-time: "🕐 Zeit"
+  embed-footer: "GhostyAlert v1.0.0"
